@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<title>JavaScript - Dialog Boxes</title>
+
+<head>
+    <script>
+        function alerts() {
+            document.write("This shows up after you click the button ")
+            alert("Hi I'm an alert I'm here to alert you")
+        }
+    </script>
+</head>
+
+<body>
+    <p>ALERT</p>
+    <input type = "button" value = "TRIGGER ALERT BOX" onclick = "alerts();" />
+</body>
+
+</html>
